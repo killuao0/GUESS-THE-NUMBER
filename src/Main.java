@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Guess a random number between 0-100");
+        System.out.println("Guess the number between 0-100");
         Random ran = new Random();
         int number = ran.nextInt(100);
         Scanner sc = new Scanner(System.in);
