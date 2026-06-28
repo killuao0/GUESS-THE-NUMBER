@@ -1,10 +1,9 @@
-import org.w3c.dom.ranges.Range;
-
 import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Guess a random number between 0-100");
         Random ran = new Random();
         int number = ran.nextInt(100);
         Scanner sc = new Scanner(System.in);
