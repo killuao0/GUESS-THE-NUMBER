@@ -7,7 +7,6 @@ public class Main {
     public static void main(String[] args) {
         Random ran = new Random();
         int number = ran.nextInt(100);
-        System.out.println(number);
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your number");
         int guess;
@@ -23,7 +22,7 @@ public class Main {
             System.out.println("enter your next guess number " + num);
             guess = sc.nextInt();
         }
-        System.out.println("ta-da you got it. CONGRATULATIONS." +
-                " you got it in "+ num + " tries");
+        System.out.println("Ta-da! Congratulations!");
+        System.out.println("You got it in " + num + " tries.");
     }
 }
